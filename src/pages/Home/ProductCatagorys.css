@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+
+.catagory-container {
+    margin-top: 40px;
+}
+
+.empty-div-catagory {
+    width: 100px;
+    border-bottom: 2px solid #22c0ff;
+}
+
+.product-catagory {
+    font-family: 'Lobster', cursive;
+}
+
+.catagory-text {
+    font-family: 'Signika', sans-serif;
+    margin-bottom: 10px;
+}

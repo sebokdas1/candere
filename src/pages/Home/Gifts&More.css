@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+
+.gifts-container {
+    margin-top: 40px;
+}
+
+.empty-div-gifts {
+    width: 100px;
+    border-bottom: 2px solid #22c0ff;
+}
+
+.gifts-catagory {
+    font-family: 'Lobster', cursive;
+}
+
+.gifts-text {
+    font-family: 'Signika', sans-serif;
+    margin-bottom: 10px;
+}
+
+.gift-btn {
+    border: 1px solid black;
+    padding: 3px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.gift-btn:hover {
+    border: 1px solid greenyellow;
+}

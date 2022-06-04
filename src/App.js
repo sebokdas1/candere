@@ -5,6 +5,7 @@ import './App.css';
 import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
 import Register from './pages/Login/Register';
+import Footer from './pages/shared/Footer';
 import Navbar from './pages/shared/NavBar';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Route path='register' element={<Register />}></Route>
       </Routes>
 
-
+      <Footer />
       <ToastContainer />
     </div>
   );

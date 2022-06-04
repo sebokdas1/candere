@@ -3,7 +3,7 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-        <div>
+        <div className='mt-2'>
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="https://cfcdn20.candere.com/media/custom/banners/File-1653555389.jpg" class="w-full" alt='' />

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './ProductCatagorys.css';
 
 const ProductCatagorys = () => {
     const [catagorys, setCatagorys] = useState();
@@ -8,10 +9,13 @@ const ProductCatagorys = () => {
             .then(data => setCatagorys(data))
     }, [])
     return (
-        <div>
-            <div className='grid grid-cols-4'>
+        <div className='catagory-container'>
+            <h1 className='text-center text-2xl product-catagory'>Product Categories</h1>
+            <h4 className='text-center catagory-text'>So that you don't run out of options to choose from!</h4>
+            <div className='empty-div-catagory mx-auto'></div>
+            <div className='grid grid-cols-2 lg:grid-cols-4'>
                 {
-                    catagorys?.map(product => <div className='card shadow-xl mt-2'>
+                    catagorys?.map(product => <div className='card hover:shadow-xl mt-2'>
                         <div className='card-body items-center'>
                             <div class="avatar">
                                 <div class="w-full rounded">
