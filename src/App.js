@@ -2,6 +2,8 @@ import { Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
+import BestSellers from './pages/Home/BestSellers';
+import Closet from './pages/Home/Closet';
 import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
 import Register from './pages/Login/Register';
@@ -13,7 +15,12 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />}></Route>
+        <Route path='/' element={<Home />}>
+          <Route index element={<BestSellers />}></Route>
+        </Route>
+
+
+
 
         <Route path='login' element={<Login />}></Route>
         <Route path='register' element={<Register />}></Route>

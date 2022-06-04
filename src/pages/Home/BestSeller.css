@@ -1,0 +1,15 @@
+.all-product-btn {
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.all-product-btn:hover {
+    border: 1px solid greenyellow;
+}
+
+.best-content {
+    display: flex;
+    justify-content: center;
+
+}
