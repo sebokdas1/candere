@@ -11,8 +11,11 @@ const RequireAuth = ({ children }) => {
     const [sendEmailVerification, sending, error] = useSendEmailVerification(auth);
     const location = useLocation();
 
-    if (loading) {
+    if (loading || sending) {
         return <Loading />
+    }
+    if (error) {
+        console.log(error?.message)
     }
 
     if (!user) {
