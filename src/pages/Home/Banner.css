@@ -1,0 +1,15 @@
+.carousel-item a {
+    background-color: gainsboro;
+    border: none;
+}
+
+.carousel-item .arrow {
+    color: white;
+}
+
+
+@media only screen and (max-width:576px) {
+    .carousel-item a {
+        display: none;
+    }
+}
