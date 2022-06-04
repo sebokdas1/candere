@@ -1,0 +1,37 @@
+[
+    {
+        "_id": 1,
+        "img": "https://cfcdn20.candere.com/skin/frontend/default/new_design_candere/images/product_categories/April_2022_v2/ring.jpg",
+        "name": "RINGS"
+    },
+    {
+        "_id": 2,
+        "img": "https://cfcdn20.candere.com/skin/frontend/default/new_design_candere/images/product_categories/April_2022_v2/earring.jpg",
+        "name": "EARRINGS"
+    },
+    {
+        "_id": 3,
+        "img": "https://cfcdn20.candere.com/skin/frontend/default/new_design_candere/images/product_categories/April_2022_v2/pendant.jpg",
+        "name": "PENDANTS"
+    },
+    {
+        "_id": 4,
+        "img": "https://cfcdn20.candere.com/skin/frontend/default/new_design_candere/images/product_categories/April_2022_v2/mangalsutra.jpg",
+        "name": "MANGALSUTRAS"
+    },
+    {
+        "_id": 5,
+        "img": "https://cfcdn20.candere.com/skin/frontend/default/new_design_candere/images/product_categories/April_2022_v2/Bracelet.jpg",
+        "name": "BRACELETS"
+    },
+    {
+        "_id": 6,
+        "img": "https://cfcdn20.candere.com/skin/frontend/default/new_design_candere/images/product_categories/April_2022_v2/necklace.jpg",
+        "name": "NECKLACES"
+    },
+    {
+        "_id": 7,
+        "img": "https://cfcdn20.candere.com/skin/frontend/default/new_design_candere/images/product_categories/April_2022_v2/chain.jpg",
+        "name": "CHAINS"
+    },
+]

@@ -1,28 +1,28 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const ProductCatagorys = () => {
+    const [catagorys, setCatagorys] = useState();
+    useEffect(() => {
+        fetch("catagorys.json")
+            .then(res => res.json())
+            .then(data => setCatagorys(data))
+    }, [])
     return (
         <div>
-            <div>
-                <div class="card card-compact w-96 bg-base-100 shadow-xl">
-                    <figure><img src="https://cfcdn20.candere.com/skin/frontend/default/new_design_candere/images/product_categories/April_2022_v2/ring.jpg" alt="ring" /></figure>
-                </div>
+            <div className='grid grid-cols-4'>
+                {
+                    catagorys?.map(product => <div className='card shadow-xl mt-2'>
+                        <div className='card-body items-center'>
+                            <div class="avatar">
+                                <div class="w-full rounded">
+                                    <img src={product?.img} alt="" />
+                                </div>
+                            </div>
+                            <h5>{product?.name}</h5>
+                        </div>
+                    </div>)
+                }
 
-                <div class="card card-compact w-96 bg-base-100 shadow-xl">
-                    <figure><img src="https://cfcdn20.candere.com/skin/frontend/default/new_design_candere/images/product_categories/April_2022_v2/earring.jpg" alt="earring" /></figure>
-                </div>
-
-                <div class="card card-compact w-96 bg-base-100 shadow-xl">
-                    <figure><img src="https://cfcdn20.candere.com/skin/frontend/default/new_design_candere/images/product_categories/April_2022_v2/pendant.jpg" alt="pendant" /></figure>
-                </div>
-
-                <div class="card card-compact w-96 bg-base-100 shadow-xl">
-                    <figure><img src="https://cfcdn20.candere.com/skin/frontend/default/new_design_candere/images/product_categories/April_2022_v2/mangalsutra.jpg" alt="mangalsutra" /></figure>
-                </div>
-
-                <div class="card card-compact w-96 bg-base-100 shadow-xl">
-                    <figure><img src="https://cfcdn20.candere.com/skin/frontend/default/new_design_candere/images/product_categories/April_2022_v2/Bracelet.jpg" alt="bracelet" /></figure>
-                </div>
 
             </div>
         </div>
