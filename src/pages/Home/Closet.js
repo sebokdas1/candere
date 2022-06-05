@@ -11,8 +11,8 @@ const Closet = () => {
             <div className='mt-5'>
                 <ul className='nested-links'>
                     <li> <Link to="/">Bestsellers</Link></li>
-                    <li><Link to="/">New Arrivals</Link></li>
-                    <li><Link to="/">Curated Pages</Link></li>
+                    <li><Link to="/arrivals">New Arrivals</Link></li>
+                    <li><Link to="/curated">Curated Pages</Link></li>
 
                 </ul>
             </div>

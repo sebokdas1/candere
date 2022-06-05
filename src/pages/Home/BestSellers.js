@@ -5,7 +5,7 @@ const BestSellers = () => {
     return (
         <div className='grid lg:grid-cols-4 gap-4 lg:mx-10 mt-2'>
             <div className='best-content'>
-                <div>
+                <div className='pt-8'>
                     <h2 className='text-2xl'>Discover <span className='text-green-500 italic'>Our</span> <br /> Popular Designs</h2>
                     <p className='mt-2 mb-2'>Our most loved designs deserve a worthy mention and here they are!</p>
                     <button className='all-product-btn uppercase'>view all products</button>
