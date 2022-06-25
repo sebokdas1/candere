@@ -10,9 +10,9 @@ const Closet = () => {
             <div className='empty-div-closet mx-auto'></div>
             <div className='mt-5'>
                 <ul className='nested-links'>
-                    <li> <Link to="/">Bestsellers</Link></li>
-                    <li><Link to="/arrivals">New Arrivals</Link></li>
-                    <li><Link to="/curated">Curated Pages</Link></li>
+                    <li className='btn btn-ghost'> <Link to="/">Bestsellers</Link></li>
+                    <li className='btn btn-ghost'><Link to="/arrivals">New Arrivals</Link></li>
+                    <li className='btn btn-ghost'><Link to="/curated">Curated Pages</Link></li>
 
                 </ul>
             </div>

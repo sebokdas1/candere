@@ -28,6 +28,7 @@ const Footer = () => {
                     <a class="link link-hover">Privacy policy</a>
                     <a class="link link-hover">Cookie policy</a>
                 </div>
+                <h2>design candere.com And developed by <span>Sebok Das</span></h2>
             </footer>
         </div>
     );
