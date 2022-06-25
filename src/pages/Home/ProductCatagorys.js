@@ -1,15 +1,19 @@
 import React from 'react';
 import './ProductCatagorys.css';
+import { useNavigate } from 'react-router-dom';
 
 const ProductCatagorys = () => {
-
+    const navigate = useNavigate();
+    const navigateRing = () => {
+        navigate('/rings')
+    }
     return (
         <div className='catagory-container'>
             <h1 className='text-center text-2xl product-catagory'>Product Categories</h1>
             <h4 className='text-center catagory-text'>So that you don't run out of options to choose from!</h4>
             <div className='empty-div-catagory mx-auto'></div>
             <div className='grid grid-cols-2 lg:grid-cols-4 '>
-                <div className='card hover:shadow-xl mt-2 cursor-pointer'>
+                <div onClick={navigateRing} className='card hover:shadow-xl mt-2 cursor-pointer'>
                     <div className='card-body items-center'>
                         <div class="avatar">
                             <div class="w-full rounded">

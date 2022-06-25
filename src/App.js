@@ -3,10 +3,11 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import BestSellers from './pages/Home/BestSellers';
-import Closet from './pages/Home/Closet';
+// import Closet from './pages/Home/Closet';
 import CuratedPages from './pages/Home/CuratedPages';
 import Home from './pages/Home/Home';
 import NewArrivals from './pages/Home/NewArrivals';
+import Rings from './pages/Home/rings/Rings';
 import Login from './pages/Login/Login';
 import Register from './pages/Login/Register';
 import Footer from './pages/shared/Footer';
@@ -14,7 +15,7 @@ import Navbar from './pages/shared/NavBar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}>
@@ -25,7 +26,7 @@ function App() {
 
 
 
-
+        <Route path='rings' element={<Rings />}></Route>
         <Route path='login' element={<Login />}></Route>
         <Route path='register' element={<Register />}></Route>
       </Routes>

@@ -1,72 +1,72 @@
 [
     {
-        "id": 1,
+        "_id": 1,
         "name": "CYRA DIAMOND RING",
         "img": "https://i.ibb.co/9swm9RZ/c004016-1-1.png",
         "price": 22000
     },
     {
-        "id": 2,
+        "_id": 2,
         "name": "EDELWEISS MIRACLE PLATE DIAMOND RING",
         "img": "https://i.ibb.co/TKkYfz6/c012928-1-3.png",
         "price": 29000
     },
     {
-        "id": 3,
+        "_id": 3,
         "name": "DEEPALI DIAMOND ENGAGEMENT RING",
         "img": "https://i.ibb.co/R9rrQ28/rings.png",
         "price": 27500
     },
     {
-        "id": 4,
+        "_id": 4,
         "name": "RADIANT HALO MIRACLE PLATE DIAMOND RING",
         "img": "https://i.ibb.co/ZKg7zgT/c013425-1.png",
         "price": 25800
     },
     {
-        "id": 5,
+        "_id": 5,
         "name": "SPEAR HEADS SOLITAIRE DIAMOND ENGAGEMENT RING",
         "img": "https://i.ibb.co/YD8Rm0w/c015487-1.png",
         "price": 29100
     },
     {
-        "id": 6,
+        "_id": 6,
         "name": "CHILASA BUTTERFLY DIAMOND RING",
         "img": "https://i.ibb.co/NSHmyJD/c018138-1.png",
         "price": 15000
     },
     {
-        "id": 7,
+        "_id": 7,
         "name": "CROSS STITCH MESH DIAMOND RING",
         "img": "https://i.ibb.co/bXwnq3G/c018973-1-1.png",
         "price": 14500
     },
     {
-        "id": 8,
+        "_id": 8,
         "name": "ZEALOT SOLITAIRE DIAMOND RING",
         "img": "https://i.ibb.co/MP5GHQd/c018985-1.png",
         "price": 30000
     },
     {
-        "id": 9,
+        "_id": 9,
         "name": "SHASHWATEE DIAMOND ENGAGEMENT RING",
         "img": "https://i.ibb.co/4Jj85nn/c020461-1.png",
         "price": 80000
     },
     {
-        "id": 10,
+        "_id": 10,
         "name": "BOW TIE DIAMOND RING",
         "img": "https://i.ibb.co/BTLJfGZ/c020505-1.png",
         "price": 23000
     },
     {
-        "id": 11,
+        "_id": 11,
         "name": "KISMET LOVE KNOT DIAMOND RING",
         "img": "https://i.ibb.co/zhBZhVM/lcr0031-1.png",
         "price": 21000
     },
     {
-        "id": 12,
+        "_id": 12,
         "name": "HEART N SOUL DIAMOND RING",
         "img": "https://i.ibb.co/tBYg2Pj/lcr0118-1.png",
         "price": 13000

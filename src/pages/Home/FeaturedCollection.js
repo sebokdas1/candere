@@ -39,8 +39,8 @@ const FeaturedCollection = () => {
                                 <img src="https://i.ibb.co/ZBP0YwT/Aadya.png" alt="" />
                             </div>
                         </div>
-                        <h5 className='mt-2'>Aadya Collection</h5>
-                        <small>As Unique As You</small>
+                        <h5 className='mt-2 text-center'>Aadya Collection</h5>
+                        <small className='text-center'>As Unique As You</small>
                     </div>
                 </div>
 
