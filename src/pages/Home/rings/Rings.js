@@ -26,7 +26,6 @@ const Rings = () => {
                 </div>
             </div>
 
-
         </div>
     );
 };

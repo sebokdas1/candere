@@ -1,0 +1,74 @@
+[
+    {
+        "_id": 1,
+        "name": "Devashree Gold Pendant",
+        "img": "https://i.ibb.co/mz7HKrn/c007143-5-1.png",
+        "price": 5509
+    },
+    {
+        "_id": 2,
+        "name": "Vijayalakshmi Gold Pendant",
+        "img": "https://i.ibb.co/p0qsJtH/c007153-5.png",
+        "price": 5681
+    },
+    {
+        "_id": 3,
+        "name": "Leo Diamond Ear Stud For Men",
+        "img": "https://i.ibb.co/XZ8W7Gr/c017299-3.png",
+        "price": 7350
+    },
+    {
+        "_id": 4,
+        "name": "Alokah Gold Pendant",
+        "img": "https://i.ibb.co/DVh1mmD/c019096-1.png",
+        "price": 8657
+    },
+    {
+        "_id": 5,
+        "name": "Denis Diamond Ear Stud For Men",
+        "img": "https://i.ibb.co/0ybs2Xd/c019138-1.png",
+        "price": 7785
+    },
+    {
+        "_id": 6,
+        "name": "Julian Diamond Ear Stud For Men",
+        "img": "https://i.ibb.co/ftBqmRx/c019171-3.png",
+        "price": 7854
+    },
+    {
+        "_id": 7,
+        "name": "Initial I Vakratunda Ruby Pendant",
+        "img": "https://i.ibb.co/1bhXB8B/c019192-3.png",
+        "price": 8052
+    },
+    {
+        "_id": 8,
+        "name": "Morpankh Gold Pendant",
+        "img": "https://i.ibb.co/vqN4vZG/ecp0003-3.png",
+        "price": 9643
+    },
+    {
+        "_id": 9,
+        "name": "Hiranyasri Gold Pendant",
+        "img": "https://i.ibb.co/B6sry6m/ecp0004-3.png",
+        "price": 9941
+    },
+    {
+        "_id": 10,
+        "name": "Initial R Vakratunda Ruby Pendant",
+        "img": "https://i.ibb.co/BPKkpxZ/ecp0005-3.png",
+        "price": 8618
+    },
+    {
+        "_id": 11,
+        "name": "Floris Miracle Plate Diamond Earrings",
+        "img": "https://i.ibb.co/PsyqS2z/ecp0035-3.png",
+        "price": 8849
+    },
+    {
+        "_id": 12,
+        "name": "Whimsically Me Cubic Zirconia Gold Ring",
+        "img": "https://i.ibb.co/PjJLtCq/gr00477-3.png",
+        "price": 10791
+    }
+]

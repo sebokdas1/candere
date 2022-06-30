@@ -1,0 +1,74 @@
+[
+    {
+        "_id": 1,
+        "name": "Kittens Diamond Stud Earrings For Kids",
+        "img": "https://i.ibb.co/VVTY6XL/c013784-1.png",
+        "price": 5099
+    },
+    {
+        "_id": 2,
+        "name": "Leaflet Diamond Multi Pierced Earrings",
+        "img": "https://i.ibb.co/QQTGgkD/c013790-2.png",
+        "price": 5301
+    },
+    {
+        "_id": 3,
+        "name": "Orca Diamond Multi Pierced Earrings",
+        "img": "https://i.ibb.co/RPh1060/c018313-1.png",
+        "price": 5265
+    },
+    {
+        "_id": 4,
+        "name": "Hearty Eyed Diamond Multi Pierced Earrings",
+        "img": "https://i.ibb.co/84thPVC/c018325-1.png",
+        "price": 5523
+    },
+    {
+        "_id": 5,
+        "name": "Bee Mee Diamond Stud Earrings For Kids",
+        "img": "https://i.ibb.co/BTTFQh4/c018328-1.png",
+        "price": 5451
+    },
+    {
+        "_id": 6,
+        "name": "Mizuki Diamond Multi Pierced Earrings",
+        "img": "https://i.ibb.co/ZcBSTPf/c018331-1.png",
+        "price": 5523
+    },
+    {
+        "_id": 7,
+        "name": "Cresent Moon Diamond Multi Pierced Earrings",
+        "img": "https://i.ibb.co/G0JJmLk/c018338-1.png",
+        "price": 5523
+    },
+    {
+        "_id": 8,
+        "name": "Zarina Diamond Earring",
+        "img": "https://i.ibb.co/Btvw07x/c019129-3.png",
+        "price": 36304
+    },
+    {
+        "_id": 9,
+        "name": "Naaz Diamond Earring",
+        "img": "https://i.ibb.co/KVyhJ5c/lce0198-1.png",
+        "price": 19812
+    },
+    {
+        "_id": 10,
+        "name": "Rose Birds Diamond Earrings",
+        "img": "https://i.ibb.co/7RJ2Xjj/kc01768-3.png",
+        "price": 24266
+    },
+    {
+        "_id": 11,
+        "name": "Tayla Diamond Earrings",
+        "img": "https://i.ibb.co/Y7gFM56/kc01807-1.png",
+        "price": 18167
+    },
+    {
+        "_id": 12,
+        "name": "Nola Glo Diamond Earrings",
+        "img": "https://i.ibb.co/fYSrQC4/kc01624-1.png",
+        "price": 55250
+    }
+]

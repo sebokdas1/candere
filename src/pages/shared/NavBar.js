@@ -15,8 +15,8 @@ const Navbar = () => {
     const menuItems = <>
         <li className=''><Link to="/">Home</Link></li>
         <li className=''><Link to="/rings">Rings</Link></li>
-        <li className=''><Link to="/my-portfolio">Earrings</Link></li>
-        <li className=''><Link to="/my-portfolio">Necklaces</Link></li>
+        <li className=''><Link to="/earrings">Earrings</Link></li>
+        <li className=''><Link to="/mens">Mens</Link></li>
         <li className=''><Link to="/my-portfolio">Chains</Link></li>
         <li className=''><Link to="/my-portfolio">Bangles</Link></li>
         <li className=''><Link to="/my-portfolio">Other Jewellery</Link></li>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <li className=''>{user ? <button className="btn btn-ghost" onClick={logOut}>Sign Out</button> : <Link to="/login">Login</Link>}</li>
     </>
     return (
-        <div className="navbar bg-base-100 shadow ">
+        <div className="navbar bg-base-100 shadow mb-2">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
